@@ -59,7 +59,7 @@ const Home: NextPage = () => {
               symbol: 'ETH',
               decimals: 5,
             },
-            rpcUrls: ['https://goerli.infura.io/v3/20cd5bade2c0407da65c6811cc2a1b37'],
+            rpcUrls: ['https://goerli.infura.io/v3/7a25f72d55bd4a3bbc19a0a47f083bc0'],
           }],
         });
         console.log('try');
@@ -146,7 +146,7 @@ const Home: NextPage = () => {
           pageImgWidth={1920}
           pageImgHeight={1005}
       />
-      <Header />
+      {/* <Header /> */}
       <MintButton/>
       <Footer />
     </div>
