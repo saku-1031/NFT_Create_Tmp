@@ -15,7 +15,7 @@ const Home: NextPage = () => {
     'function totalSupply() public view virtual override returns (uint256)',
     "function mint(uint _mintAmount) public payable",
   ]
-  const contractAddress = "0x9ee6c48d1984fA92dE6c0339741f384E62Ea114a"
+  const contractAddress = "0xC4a410db2222C21C4feb401D43E289368A7540b6"
   useEffect(() => {
     const setSaleInfo = async() =>{
       const provider = await new ethers.providers.Web3Provider((window as any).ethereum);
